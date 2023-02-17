@@ -5,7 +5,7 @@ intents = discord.Intents.all()
 intents.members = True
 #client = discord.Client(intents=intents)
 
-TOKEN = 'MTA3NjIwMzU3Nzc3NDcwMjYwMw.GAgtEd.5WRCNV9wyYRoSXQDidK8HWcgZveKdijQTDihCk'
+TOKEN = ''
 
 
 description = '''Python Discord Bot'''
