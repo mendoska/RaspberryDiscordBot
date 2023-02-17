@@ -1,16 +1,17 @@
 import discord
 from discord.ext import commands
 
+
+#discord requires this to run
 intents = discord.Intents.all()
 intents.members = True
-#client = discord.Client(intents=intents)
 
+#insert bot token 
 TOKEN = ''
 
 
-description = '''Python Discord Bot'''
 #command prefix is what you use to run the command
-
+#ex:?hello
 bot = commands.Bot(command_prefix='?', intents=intents)
 
 @bot.event
