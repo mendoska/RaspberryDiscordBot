@@ -25,4 +25,9 @@ async def on_ready():
 async def hello(ctx):
 	await ctx.send('world')
 
+@bot.command()
+async def rickroll(ctx):
+	await ctx.send('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley')
+
+
 bot.run(TOKEN)
